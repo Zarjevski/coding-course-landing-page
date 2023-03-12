@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ללמוד לתכנת לבד!</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <ul>
+        <li><a href="#hero">ראשי</a></li>
+        <li><a href="#services">פרטים</a></li>
+        <li><a href="#contact">צור קשר</a></li>
+      </ul>
+    </nav>
+    <!-- hero section -->
+    <section id="hero" class="hero">
+      <div class="hero-text">
+        <h1>תמיד חלמתם לעבוד בהייטק?</h1>
+        <p>היום אתם כבר לא צריכים להרשם לקורסים בעשרות אלפי שקלים!</p>
+        <button>גלו עוד</button>
+      </div>
+      <img src="./assets/1.png" alt="man coding" />
+    </section>
+    <!-- divder -->
+    <div class="spacer layer1"></div>
+    <!-- service section -->
+    <section id="services" class="services">
+      <h1>מה בקורס?</h1>
+      <div>
+        <img src="./assets/plant.png" alt="" />
+        <h2>ידודותי</h2>
+        <p>
+          קורס ידודותי המיועד למתחילים אשר מחפשים להשתלב בעולם הייטק או לעבוד
+          כפרילנסרים בבניית אתרים
+        </p>
+      </div>
+      <div>
+        <img src="./assets/cube.png" alt="" />
+        <h2>יסודי</h2>
+        <p>
+          הקורס מתמקד באבני הבסיס של בניית אתרים ופיתוח ווב ובשפות העיקריות שהן
+          HTML5 ו CSS3
+        </p>
+      </div>
+      <div>
+        <img src="./assets/gear.png" alt="" />
+        <h2>טכני</h2>
+        <p>
+          מעבר לתכנות הקורס ילמד כיצד להתקין את הכלים הנדרשים ולהקים את סביבת
+          העבודה המקצועית ביותר
+        </p>
+      </div>
+    </section>
+    <!-- divder -->
+    <div class="spacer layer2"></div>
+    <!-- contact form -->
+    <div class="overlay hide">
+      <div class="modal">
+        <h2 class="modal-text">תודה על הרשמתך!</h2>
+      </div>
+    </div>
+    <section id="contact" class="contact">
+      <img src="./assets/2.png" alt="screen" />
+      <form class="contact-form">
+        <h1>רוצים לשמוע עוד?</h1>
+        <input class="name" type="text" placeholder="שם מלא" />
+        <input class="email" type="email" placeholder="דואר אלקטרוני" />
+        <input class="telephone" size="10" type="tel" placeholder="טלפון" />
+        <p class="hide error-msg"></p>
+        <div class="terms">
+          <input type="checkbox" name="terms" id="term-input" />
+          <label for="term"
+            >אני מסכים למסור את הפרטים הבאים ולקבל דיוור בדואר האלקטרוני</label
+          >
+        </div>
+        <button type="submit">שליחה</button>
+      </form>
+    </section>
+    <footer>
+      <h4>
+        כל הזכויות שמורות
+        <span><a href="http://www.zarjevski.com">ZARJEVSKI &copy;</a></span>
+      </h4>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

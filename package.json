@@ -1,0 +1,27 @@
+{
+  "name": "cc-landing-page",
+  "version": "1.0.0",
+  "description": "landing page for online coding course",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "online",
+    "coding",
+    "programming",
+    "html",
+    "css",
+    "javascript."
+  ],
+  "author": "victor zarjevski",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.10.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "prisma": "^4.10.0"
+  }
+}
